@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.apmarkertadmin.Fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_historyFragment"
+            app:destination="@id/historyFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_displayDataFragment"
+            app:destination="@id/displayDataFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_addDetailFragment"
+            app:destination="@id/addDetailFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_infoFragment"
+            app:destination="@id/infoFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_helpFragment"
+            app:destination="@id/helpFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addDetailFragment"
+        android:name="com.example.apmarkertadmin.Fragment.AddDetailFragment"
+        android:label="fragment_add_detail"
+        tools:layout="@layout/fragment_add_detail" />
+    <fragment
+        android:id="@+id/displayDataFragment"
+        android:name="com.example.apmarkertadmin.Fragment.DisplayDataFragment"
+        android:label="fragment_display_data"
+        tools:layout="@layout/fragment_display_data" />
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.apmarkertadmin.Fragment.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/helpFragment"
+        android:name="com.example.apmarkertadmin.Fragment.HelpFragment"
+        android:label="fragment_help"
+        tools:layout="@layout/fragment_help" />
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.example.apmarkertadmin.Fragment.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+</navigation>

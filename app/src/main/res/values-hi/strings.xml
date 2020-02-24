@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ApMarkertAdmin</string>
+    <string name="ph_num">
+डेटा जोड़ें</string>
+    <string name="pass">
+डेटा जोड़ें</string>
+    <string name="choose_language">
+डेटा जोड़ें</string>
+    <string name="Myanmar">
+डेटा जोड़ें</string>
+    <string name="English">English</string>
+    <string name="add_data">
+डेटा जोड़ें</string>
+    <string name="view_data">
+डेटा जोड़ें</string>
+    <string name="history">
+डेटा जोड़ें</string>
+    <string name="info">profile</string>
+    <string name="help">
+डेटा जोड़ें</string>
+    <string name="logout">Logout</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

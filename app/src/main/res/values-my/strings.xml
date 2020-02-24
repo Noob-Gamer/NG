@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">တိုက်ခန်းငှားမည်</string>
+    <string name="ph_num">ဖုန်းနံပါတ်</string>
+    <string name="pass">လျှိုဝှက်နံပါတ်</string>
+    <string name="choose_language">ဘာသာစကား</string>
+    <string name="Myanmar">မြန်မာ</string>
+    <string name="English">English</string>
+    <string name="add_data">ထည့်မည်</string>
+    <string name="view_data">ကြည့်မည်</string>
+    <string name="history">မှတ်တမ်း</string>
+    <string name="info">profile</string>
+    <string name="help">အကူအညီ</string>
+    <string name="logout">Logout</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
